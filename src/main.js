@@ -13,6 +13,10 @@ import '@/styles/index.scss' // global css
 
 import '@/icons' // icon
 
+import 'normalize.css/normalize.css'// A modern alternative to CSS resets
+
+import '@/permission' // permission control
+
 Vue.use(ElementUI, { locale })
 
 Vue.config.productionTip = false
